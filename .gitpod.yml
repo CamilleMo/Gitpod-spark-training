@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - command: sbt ~run
+vscode:
+  extensions:
+    - scala-lang.scala
+    - scalameta.metals
+    - eamodio.gitlens
+    - mhutchie.git-graphports
+    - ahmadawais.shades-of-purple
+ports:
+  - port: 8212
+    onOpen: ignore
